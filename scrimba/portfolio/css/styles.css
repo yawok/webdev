@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+	font-family: 'Darker Grotesque', sans-serif;
+	font-size: 20px;
+}
+
+header {
+	background-color: blue;
+	margin-bottom: 5px;
+}
+
+.header-box {
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu-items {
+	padding: 30px 10px 0;
+}
+
+.logo {
+	font-size: 30px;
+	padding-left: 10px;
+}
+
+.row {
+	display: flex;
+	text-align: center;
+	margin: auto;
+}
+
+.row > div {
+	background-color: #ff73d1;
+	margin: 30px;
+	width: 50%;
+	height: 400px;
+	padding: 30px;
+	text-align: left;
+}
+.row > div > h1 {
+	padding: 100px;
+}
+
+button {
+	padding: 5px 15px;
+	font-size: 15px;
+	font-weight: 900;
+}
+.button {
+	margin: 20px 620px;
+}
+
